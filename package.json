@@ -4,7 +4,11 @@
   "description": "Official one-page website for Mahogany Birth Tribe",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonayahJ/mahogany_bt"
   },
   "keywords": [
     "Mahogany",
@@ -16,5 +20,12 @@
     "Lactation"
   ],
   "author": "Jonayah M. Jackson",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonayahJ/mahogany_bt/issues"
+  },
+  "homepage": "https://github.com/JonayahJ/mahogany_bt#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
 }

@@ -21,7 +21,7 @@
         $recipient = "jonayah@thinkhalcyon.com";
 
         // Set the email subject.
-        $subject = "New contact from $name";
+        $subject = "New message from $name on the Mahogany Birth Tribe website";
 
         // Build the email content.
         $email_content = "First Name: $name\n";
