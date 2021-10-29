@@ -453,7 +453,7 @@ p {
 
 .secondary-btn {
   display: inline-block;
-  font-weight: 700;
+  font-weight: 400;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -465,7 +465,7 @@ p {
   padding: 0 32px;
   font-size: 16px;
   line-height: 46px;
-  color: var(--gunmetal) important!;
+  color: #eee;
   cursor: pointer;
   z-index: 5;
   -webkit-transition: all 0.4s ease-out 0s;
@@ -2040,7 +2040,7 @@ p {
   font-size: 36px;
   font-weight: 600;
   line-height: 45px;
-  color: #6c6c6c; }
+  color: var(--russian-violet); }
   @media (max-width: 767px) {
     .form-elements-title {
       font-size: 24px;
@@ -2058,7 +2058,7 @@ p {
 .form-input label {
   font-size: 12px;
   line-height: 18px;
-  color: #6c6c6c;
+  color: var(--russian-violet);
   margin-bottom: 8px;
   display: inline-block; }
 .form-input .input-items {
@@ -2082,24 +2082,24 @@ p {
     font-size: 20px;
     z-index: 9; }
   .form-input .input-items.default input, .form-input .input-items.default textarea {
-    border-color: #a4a4a4;
-    color: #6c6c6c; }
+    border-color: var(--russian-violet);
+    color: var(--russian-violet) }
     .form-input .input-items.default input:focus, .form-input .input-items.default textarea:focus {
       border-color: var(--pastel-pink); }
     .form-input .input-items.default input::placeholder, .form-input .input-items.default textarea::placeholder {
-      color: #6c6c6c;
+      color: var(--russian-violet);
       opacity: 1; }
     .form-input .input-items.default input::-moz-placeholder, .form-input .input-items.default textarea::-moz-placeholder {
-      color: #6c6c6c;
+      color: var(--russian-violet);
       opacity: 1; }
     .form-input .input-items.default input::-moz-placeholder, .form-input .input-items.default textarea::-moz-placeholder {
-      color: #6c6c6c;
+      color: var(--russian-violet);
       opacity: 1; }
     .form-input .input-items.default input::-webkit-input-placeholder, .form-input .input-items.default textarea::-webkit-input-placeholder {
-      color: #6c6c6c;
+      color: var(--russian-violet);
       opacity: 1; }
   .form-input .input-items.default i {
-    color: #6c6c6c; }
+    color: var(--russian-violet); }
   .form-input .input-items.active input, .form-input .input-items.active textarea {
     border-color: var(--pastel-pink);
     color: #121212; }
@@ -2650,11 +2650,11 @@ p {
   
 
 /*===========================
-      17.FEATURES css 
+      17.SERVICES css 
 ===========================*/
 /*===== features TWO =====*/
 .features-area {
-  background-color: var(--pastel-pink);
+  background-color: var(--russian-violet);
   padding-top: 120px;
   padding-bottom: 130px; }
 
@@ -2666,7 +2666,7 @@ p {
     font-size: 36px;
     font-weight: 600;
     line-height: 45px;
-    color: var(--pastel-pink);
+    color: var(--russian-violet);
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -2900,17 +2900,17 @@ p {
         box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.16); }
 
 /*===========================
-       15.ABOUT css 
+       15.RESOURCES css 
 ===========================*/
 .about-area {
   padding-top: 80px;
   padding-bottom: 130px;
   position: relative;
-  background-color: var(--gunmetal); }
+  background-color: var(--pastel-pink); }
   .about-area .about-title .sub-title {
     font-size: 18px;
     font-weight: 400;
-    color: var(--fulvous);
+    color: var(--russian-violet);
     text-transform: uppercase; }
     @media (max-width: 767px) {
       .about-area .about-title .sub-title {
@@ -3232,7 +3232,7 @@ p {
 .contact-area {
   padding-top: 120px;
   padding-bottom: 130px;
-  background-color: var(--pastel-pink); }
+  background-color: var(--mellow-apricot); }
 
 p.form-message.success, p.form-message.error {
   font-size: 16px;
@@ -3273,15 +3273,20 @@ p.form-message.success, p.form-message.error {
 .contact-wrapper .contact-title {
   font-size: 32px;
   font-weight: 700;
-  color: #000; }
+  color: var(--russian-violet); }
   @media (max-width: 767px) {
     .contact-wrapper .contact-title {
       font-size: 26px; } }
   .contact-wrapper .contact-title i {
-    color: #121212;
+    color: var(--russian-violet);
     margin-right: 8px; }
   .contact-wrapper .contact-title span {
     font-weight: 400; }
+
+.contact-btn {
+  background-color: var(--russian-violet);
+  border-radius: 5px;
+}
 
 /*===========================
     21.FOOTER css 
@@ -3372,5 +3377,97 @@ p.form-message.success, p.form-message.error {
   .back-to-top:hover {
     color: #fff;
     background-color: var(--fulvous); }
+
+/*===== ADDITIONAL CSS =====*/
+.card {
+  position: relative;
+  border-radius: 15px; 
+  overflow: hidden; 
+}
+
+.card-shadow {
+  box-shadow: 1px 1px 1px 0.5px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card-img-top {
+  width: 100%
+}
+
+.card-title {
+  color: #eee;
+}
+
+.card-text {
+  color: #eee;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+.btn-mbt-ma {
+  background-color: var(--mellow-apricot);
+  color: #eee;
+}
+
+/*===== SERVICES SECTION =====*/
+.services-section-area {
+  padding-top: 80px;
+  padding-bottom: 130px;
+  background-color: var(--russian-violet); }
+  .services-section-area .services-content .sub-title {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--fulvous);
+    text-transform: uppercase; }
+    @media (max-width: 767px) {
+      .services-section-area .services-content .sub-title {
+        font-size: 16px; } }
+  .services-section-area .services-content .title {
+    font-size: 32px;
+    padding-top: 10px;
+    color: #eee; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .services-section-area .services-content .title {
+        font-size: 30px; } }
+    @media (max-width: 767px) {
+      .services-section-area .services-content .title {
+        font-size: 24px; } }
+  .services-section-area .services-content .services-line {
+    padding-top: 10px; }
+    .services-section-area .services-content .services-line li {
+      height: 5px;
+      background-color: var(--fulvous);
+      opacity: 0.2;
+      display: inline-block;
+      border-radius: 50px;
+      margin-right: 3px; }
+      .services-section-area .services-content .services-line li:nth-of-type(1) {
+        width: 40px; }
+      .services-section-area .services-content .services-line li:nth-of-type(2) {
+        width: 15px; }
+      .services-section-area .services-content .services-line li:nth-of-type(3) {
+        width: 10px; }
+      .services-section-area .services-content .services-line li:nth-of-type(4) {
+        width: 5px; }
+  .services-section-area .services-content .text {
+    padding-top: 15px; }
+  .services-text {
+    color: #eee;
+  }
+
+.about-text {
+  color: var(--gunmetal);
+}
+
+.accordion-li {
+  color: var(--russian-violet);
+}
 
 /*# sourceMappingURL=style.css.map */
