@@ -465,7 +465,7 @@ p {
   padding: 0 32px;
   font-size: 16px;
   line-height: 46px;
-  color: #eee;
+  color: #fff;
   cursor: pointer;
   z-index: 5;
   -webkit-transition: all 0.4s ease-out 0s;
@@ -3340,7 +3340,7 @@ p.form-message.success, p.form-message.error {
   .footer-area .copyright .text {
     color: #121212; }
   .footer-area.footer-dark {
-    background-color: var(--gunmetal); }
+    background-color: var(--russian-violet); }
     .footer-area.footer-dark .social li a {
       color: #fff; }
     .footer-area.footer-dark .footer-support {
@@ -3398,11 +3398,11 @@ p.form-message.success, p.form-message.error {
 }
 
 .card-title {
-  color: #eee;
+  color: #fff;
 }
 
 .card-text {
-  color: #eee;
+  color: #fff;
 }
 
 .bottom {
@@ -3413,7 +3413,7 @@ p.form-message.success, p.form-message.error {
 
 .btn-mbt-ma {
   background-color: var(--mellow-apricot);
-  color: #eee;
+  color: #fff;
 }
 
 /*===== SERVICES SECTION =====*/
@@ -3432,7 +3432,7 @@ p.form-message.success, p.form-message.error {
   .services-section-area .services-content .title {
     font-size: 32px;
     padding-top: 10px;
-    color: #eee; }
+    color: #fff; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .services-section-area .services-content .title {
         font-size: 30px; } }
@@ -3459,7 +3459,7 @@ p.form-message.success, p.form-message.error {
   .services-section-area .services-content .text {
     padding-top: 15px; }
   .services-text {
-    color: #eee;
+    color: #fff;
   }
 
 .about-text {
@@ -3468,6 +3468,50 @@ p.form-message.success, p.form-message.error {
 
 .accordion-li {
   color: var(--russian-violet);
+}
+
+/*===== MODAL STYLING =====*/
+.modal-dialog {
+  border-radius: 15px;
+  overflow: hidden;
+  width: 50%;
+}
+
+.modal-close {
+  background-color: var(--russian-violet);
+  color: #fff;
+}
+
+.modal-cta {
+  background-color: var(--mellow-apricot);
+  color: #fff;
+}
+
+span1 {
+  color: var(--misty-rose);
+  font-size: large;
+}
+
+span2 {
+  color: var(--pastel-pink);
+}
+
+.modal-header {
+  background-color: var(--pastel-pink);
+  border: 0;
+}
+
+.modal-footer {
+  border: 0;
+}
+
+.modal-title {
+  color: #fff;
+}
+
+.modal-list {
+  line-height: 2;
+  padding-left: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
