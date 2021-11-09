@@ -34,11 +34,14 @@
       01.COMMON css 
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce&display=swap');
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #121212; }
+  
 
 * {
   margin: 0;
@@ -120,6 +123,7 @@ p {
 
 /*===== All Section Title Style =====*/
 .section-title .title {
+  /* font-family: 'Birthstone Bounce', cursive; */
   font-size: 44px;
   font-weight: 600;
   color: #121212;
@@ -2906,11 +2910,11 @@ p {
   padding-top: 80px;
   padding-bottom: 130px;
   position: relative;
-  background-color: var(--pastel-pink); }
+  background-color: var(--gunmetal); }
   .about-area .about-title .sub-title {
     font-size: 18px;
     font-weight: 400;
-    color: var(--russian-violet);
+    color: var(--mellow-apricot);
     text-transform: uppercase; }
     @media (max-width: 767px) {
       .about-area .about-title .sub-title {
@@ -3472,7 +3476,7 @@ p.form-message.success, p.form-message.error {
 }
 
 .accordion-li {
-  color: var(--russian-violet);
+  color: var(--mellow-apricot);
 }
 
 /*===== MODAL STYLING =====*/
@@ -3517,6 +3521,10 @@ span2 {
 .modal-list {
   line-height: 2;
   padding-left: 15px;
+}
+
+.cursive {
+  font-family: 'Birthstone Bounce', cursive;
 }
 
 /*# sourceMappingURL=style.css.map */

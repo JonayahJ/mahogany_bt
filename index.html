@@ -12,7 +12,7 @@
 
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
-        
+
     <!--====== Magnific Popup CSS ======-->
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
         
@@ -29,7 +29,22 @@
     <link rel="stylesheet" href="assets/css/default.css">
     
     <!--====== Style CSS ======-->
+
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--====== MailChimp Header Code ======-->
+    <script id="mcjs">
+    
+        function showPopup(){
+            // Mailchimp code
+            !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/c37c08c4e3cc5fd855891e680/190590a0c2d88a556648b930c.js");
+
+            // Cookies stuff
+            document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+            document.cookie = "MCPopupSubscribed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+        }
+    
+    </script>
     
 </head>
 
@@ -91,7 +106,7 @@
                         <div class="navbar-btn d-none d-sm-inline-block">
                             <ul>
                                 <!-- Mailchimp Popup Link -->
-                                <li><a class="solid" href="#">JOIN THE TRIBE!</a></li>
+                                <li><a class="solid" href="#" onclick="showPopup()">JOIN THE TRIBE!</a></li>
                             </ul>
                         </div>
                     </nav> <!-- navbar -->
@@ -112,29 +127,30 @@
                 <li data-target="#carouselThree" data-slide-to="2"></li>
                 <li data-target="#carouselThree" data-slide-to="3"></li>
             </ol>
-
+            
+            <!-- Carousel Slider -->
             <div class="carousel-inner">
+                
                 <!-- Slider 1 -->
                 <div class="carousel-item active">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="slider-content">
-                                    <h1 class="title">“In giving birth to our babies, we may find that we give birth to new possibilities within ourselves.”</h1>
-                                    <p class="text">-Myla Kabat Zinn</p>
+                                    <h1 class="title cursive">“There are places in the heart you don’t even know exist until you love a child.”</h1>
+                                    <p class="text">-Anne Lamott</p>
                                     <ul class="slider-btn rounded-buttons">
-                                        <li><a class="main-btn rounded-one" href="#">CTA 1</a></li>
-                                        <!-- <li><a class="main-btn rounded-two" href="#">CTA 2</a></li> -->
+                                        <li><a class="main-btn rounded-one" href="#about">Meet Lisah</a></li>
                                     </ul>
-                                </div>
+                                </div> <!-- slider-content -->
                             </div>
                         </div> <!-- row -->
                     </div> <!-- container -->
-                    
+
                     <!-- Slider 1 Image -->
                     <div class="slider-image-box d-none d-lg-flex align-items-center">
                         <div class="slider-image">
-                            <img src="assets/images/slider/1.png" alt="Sydney 1 composite image">
+                            <img src="assets/images/slider/2.png" alt="Red Dress composite image">
                         </div> <!-- slider-imgae -->
                     </div> <!-- slider-imgae box -->
 
@@ -146,11 +162,10 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="slider-content">
-                                    <h1 class="title">“There are places in the heart you don’t even know exist until you love a child.”</h1>
-                                    <p class="text">-Anne Lamott</p>
+                                    <h1 class="title cursive">“A new baby is like the beginning of all things-wonder, hope, a dream of possibilities.”</h1>
+                                    <p class="text">-Eda LaShan</p>
                                     <ul class="slider-btn rounded-buttons">
-                                        <li><a class="main-btn rounded-one" href="#">CTA 1</a></li>
-                                        <li><a class="main-btn rounded-two" href="#">CTA 2</a></li>
+                                        <li><a class="main-btn rounded-one" href="#services">Learn about our offerings</a></li>
                                     </ul>
                                 </div> <!-- slider-content -->
                             </div>
@@ -160,11 +175,12 @@
                     <!-- Slider 2 Image -->
                     <div class="slider-image-box d-none d-lg-flex align-items-center">
                         <div class="slider-image">
-                            <img src="assets/images/slider/2.png" alt="Red Dress composite image">
+                            <img src="assets/images/slider/5.png" alt="Sydney 2b composite image">
                         </div> <!-- slider-imgae -->
                     </div> <!-- slider-imgae box -->
 
-                </div> <!-- carousel-item -->
+                </div> <!-- carousel-item -->            
+                
 
                 <!-- Slider 3 -->
                 <div class="carousel-item">
@@ -172,37 +188,34 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="slider-content">
-                                    <h1 class="title">“A new baby is like the beginning of all things-wonder, hope, a dream of possibilities.”</h1>
-                                    <p class="text">-Eda LaShan</p>
+                                    <h1 class="title cursive">“In giving birth to our babies, we may find that we give birth to new possibilities within ourselves.”</h1>
+                                    <p class="text">-Myla Kabat Zinn</p>
                                     <ul class="slider-btn rounded-buttons">
-                                        <li><a class="main-btn rounded-one" href="#">CTA 1</a></li>
-                                        <li><a class="main-btn rounded-two" href="#">CTA 2</a></li>
+                                        <li><a class="main-btn rounded-one" href="#resources">Birth Resources</a></li>
                                     </ul>
-                                </div> <!-- slider-content -->
+                                </div>
                             </div>
                         </div> <!-- row -->
                     </div> <!-- container -->
-
+                    
                     <!-- Slider 3 Image -->
                     <div class="slider-image-box d-none d-lg-flex align-items-center">
                         <div class="slider-image">
-                            <img src="assets/images/slider/3.png" alt="Sydney 2 composite image">
+                            <img src="assets/images/slider/1.png" alt="Sydney 1 composite image">
                         </div> <!-- slider-imgae -->
                     </div> <!-- slider-imgae box -->
-
                 </div> <!-- carousel-item -->
-                
+              
                 <!-- Slider 4 -->
                 <div class="carousel-item">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="slider-content">
-                                    <h1 class="title">“It is the <br> nature of babies <br> to be in <br> bliss.”</h1>
+                                    <h1 class="title cursive">“It is the <br> nature of babies <br> to be in bliss.”</h1>
                                     <p class="text">-Deepak Chopra</p>
                                     <ul class="slider-btn rounded-buttons">
-                                        <li><a class="main-btn rounded-one" href="#">CTA 1</a></li>
-                                        <li><a class="main-btn rounded-two" href="#">CTA 2</a></li>
+                                        <li><a class="main-btn rounded-one" href="#testimonials">Hear what our clients say</a></li>
                                     </ul>
                                 </div> <!-- slider-content -->
                             </div>
@@ -215,8 +228,8 @@
                             <img src="assets/images/slider/4.png" alt="Silhouette 2 composite image">
                         </div> <!-- slider-imgae -->
                     </div> <!-- slider-imgae box -->
-
                 </div> <!-- carousel-item -->
+
             </div>
 
             <a class="carousel-control-prev" href="#carouselThree" role="button" data-slide="prev">
@@ -225,6 +238,7 @@
             <a class="carousel-control-next" href="#carouselThree" role="button" data-slide="next">
                 <i class="lni lni-arrow-right"></i>
             </a>
+
         </div>
     </section>
 
@@ -240,7 +254,7 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="testimonial-left-content mt-45">
                         <h6 class="sub-title">About</h6>
-                        <h4 class="title">Mahogany <br> Birth Tribe</h4>
+                        <h4 class="title cursive">Mahogany <br> Birth Tribe</h4>
                         <ul class="testimonial-line">
                             <li></li>
                             <li></li>
@@ -273,7 +287,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-10">
                     <div class="section-title text-center pb-10">
-                        <h3 class="title" style="color: #e9ecef;">Our Services</h3>
+                        <h3 class="title cursive" style="color: #e9ecef;">Our Services</h3>
                     </div> <!-- row -->
                 </div>
             </div> <!-- row -->
@@ -331,7 +345,7 @@
                         <!-- Card 2 -->
                         <div class="col-sm-4">
                             <div class="card card-shadow img-fluid">
-                                <img class="card-img-top" src="assets/images/Services/1t.png" alt="Breastfeeding">
+                                <img class="card-img-top" src="assets/images/Services/2t.png" alt="Breastfeeding">
                                 <div class="card-img-overlay">
                                     <div class="card-body bottom">
                                         <h4 class="card-title">Postpartum <br> Support</h4>
@@ -377,7 +391,7 @@
                         <!-- Card 3 -->
                         <div class="col-sm-4">
                             <div class="card card-shadow img-fluid">
-                                <img class="card-img-top" src="assets/images/Services/1t.png" alt="Breastfeeding">
+                                <img class="card-img-top" src="assets/images/Services/4t.png" alt="Breastfeeding">
                                 <div class="card-img-overlay">
                                     <div class="card-body bottom">
                                         <h4 class="card-title">Postpartum <br> Planning</h4>
@@ -425,7 +439,7 @@
                         <!-- Card 4 -->
                         <div class="col-sm-4">
                             <div class="card card-shadow img-fluid">
-                                <img class="card-img-top" src="assets/images/Services/1t.png" alt="Breastfeeding">
+                                <img class="card-img-top" src="assets/images/Services/3t.png" alt="Breastfeeding">
                                 <div class="card-img-overlay">
                                     <div class="card-body bottom">
                                         <h4 class="card-title">Welcome Home, <br> Little One!</h4>
@@ -470,7 +484,7 @@
                         <!-- Card 5 -->
                         <div class="col-sm-4">
                             <div class="card card-shadow img-fluid">
-                                <img class="card-img-top" src="assets/images/Services/1t.png" alt="Breastfeeding">
+                                <img class="card-img-top" src="assets/images/Services/5t.png" alt="Breastfeeding">
                                 <div class="card-img-overlay">
                                     <div class="card-body bottom">
                                         <h4 class="card-title">Baby Day Bliss!</h4>
@@ -549,7 +563,7 @@
                     <div class="faq-content mt-30">
                         <div class="about-title">
                             <h6 class="sub-title">INFO</h6>
-                            <h4 class="title" style="color: #e9ecef;">Resources</h4>
+                            <h4 class="title cursive" style="color: #e9ecef;">Resources</h4>
                         </div> <!-- faq title -->
                         <div class="about-accordion">
                             <div class="accordion" id="accordionExample">
@@ -671,7 +685,7 @@
                 <div class="col-xl-5 col-lg-6">
                     <div class="testimonial-left-content mt-45">
                         <h6 class="sub-title">Testimonials</h6>
-                        <h4 class="title">What Clients Say <br> About Us</h4>
+                        <h3 class="title cursive">What Clients Say <br> About Us</h3>
                         <ul class="testimonial-line">
                             <li></li>
                             <li></li>
@@ -769,7 +783,7 @@
                         </h4>
                         
                         <form id="contact-form" method="post" netlify data-netlify="true">
-                            <input type="hidden" name="form-name" value="Contact Form">
+                            <input type="hidden" name="form-name" value="contact-form">
 
                             <div class="row">
                                 
@@ -778,7 +792,10 @@
                                     <div class="form-input mt-25">
                                         <!-- <label>Name</label> -->
                                         <div class="input-items default">
-                                            <input name="name" type="text" placeholder="Name">
+                                            <input 
+                                                name="name" 
+                                                type="text" 
+                                                placeholder="Name">
                                             <i class="lni lni-user"></i>
                                         </div>
                                     </div> <!-- form input -->
@@ -789,7 +806,10 @@
                                     <div class="form-input mt-25">
                                         <!-- <label>Email</label> -->
                                         <div class="input-items default">
-                                            <input type="email" name="email" placeholder="Email">
+                                            <input 
+                                                type="email" 
+                                                name="email" 
+                                                placeholder="Email">
                                             <i class="lni lni-envelope"></i>
                                         </div>
                                     </div> <!-- form input -->
@@ -800,7 +820,9 @@
                                     <div class="form-input mt-25">
                                         <!-- <label>Massage</label> -->
                                         <div class="input-items default">
-                                            <textarea name="massage" placeholder="Massage"></textarea>
+                                            <textarea 
+                                                name="massage" 
+                                                placeholder="Massage"></textarea>
                                             <i class="lni lni-pencil-alt"></i>
                                         </div>
                                     </div> <!-- form input -->
@@ -813,12 +835,16 @@
                                         <button type="submit" class="secondary-btn contact-btn">Send Message</button>
                                     </div> <!-- form input -->
                                 </div>
+
                             </div> <!-- row -->
                         </form>
+
                     </div> <!-- contact wrapper form -->
                 </div>
             </div> <!-- row -->
+
         </div> <!-- container -->
+
     </section>
 
     <!--====== CONTACT PART ENDS ======-->
