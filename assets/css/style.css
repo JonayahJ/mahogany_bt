@@ -3383,6 +3383,11 @@ p.form-message.success, p.form-message.error {
   position: relative;
   border-radius: 15px; 
   overflow: hidden; 
+
+  @media (max-width: 767px) {
+      padding-top: 30px;
+  }
+
 }
 
 .card-shadow {
