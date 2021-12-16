@@ -28,13 +28,19 @@
   --fulvous: #d97d00ff;
   --mellow-apricot: #eeb26eff;
   --russian-violet: #3e2f5bff;
+  --burnt-umber: #ae2012; /* Lisah's addition */
 }
 
 /*===========================
       01.COMMON css 
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
-@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+
+@font-face {
+  font-family: "Meow Script";
+  src: url(/assets/fonts/MeowScript-Regular.ttf) format(ttf);
+}
 
 body {
   font-family: "Poppins", sans-serif;
@@ -2279,7 +2285,7 @@ p {
       .navbar-area .navbar .navbar-nav .nav-item a {
         font-size: 16px;
         line-height: 24px;
-        font-weight: 700;
+        font-weight: 400;
         padding: 26px 0;
         color: #fff;
         text-transform: uppercase;
@@ -2482,6 +2488,10 @@ p {
     font-size: 16px;
     line-height: 24px;
     margin-top: 16px; }
+  .slider-image-box .slider-image {
+    padding-top: 80px;
+    padding-bottom: 130px;
+  }
   .slider-content .slider-btn {
     padding-top: 16px; }
     .slider-content .slider-btn li {
@@ -2582,13 +2592,13 @@ p {
   padding-bottom: 130px;
   background-color: var(--cultured); }
   .about-section-area .testimonial-left-content .sub-title {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     color: var(--fulvous);
     text-transform: uppercase; }
     @media (max-width: 767px) {
       .about-section-area .testimonial-left-content .sub-title {
-        font-size: 16px; } }
+        font-size: 12px; } }
   .about-section-area .testimonial-left-content .title {
     font-size: 32px;
     padding-top: 10px;
@@ -3236,7 +3246,7 @@ p {
 .contact-area {
   padding-top: 120px;
   padding-bottom: 130px;
-  background-color: var(--mellow-apricot); }
+  background-color: var(--burnt-umber); }
 
 p.form-message.success, p.form-message.error {
   font-size: 16px;
@@ -3524,7 +3534,7 @@ span2 {
 }
 
 .cursive {
-  font-family: 'Birthstone Bounce', cursive;
+  font-family: "Meow Script", cursive;
 }
 
 /*# sourceMappingURL=style.css.map */
