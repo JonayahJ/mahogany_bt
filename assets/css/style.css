@@ -3535,6 +3535,17 @@ span2 {
 
 .cursive {
   font-family: "Meow Script", cursive;
+  font-size: 55px;
+  font-weight: 600;
+  color: #121212;
+  line-height: 48px; 
 }
+  @media (max-width: 767px) {
+    .cursive {
+      font-size: 40px;
+      line-height: 30px; 
+    }
+  }
+
 
 /*# sourceMappingURL=style.css.map */
