@@ -15,10 +15,10 @@ $(function() {
         var scroll = $(window).scrollTop();
         if (scroll < 20) {
             $(".navbar-area").removeClass("sticky");
-            $(".navbar-area img").attr("src", "assets/images/logo-text.png");
+            $(".navbar-area img").attr("src", "assets/images/logo-text.png"); // white text
         } else {
             $(".navbar-area").addClass("sticky");
-            $(".navbar-area img").attr("src", "assets/images/logo-2-text.svg");
+            $(".navbar-area img").attr("src", "assets/images/logo-2-text.png"); // pink text
         }
     });
 
