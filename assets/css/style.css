@@ -34,12 +34,18 @@
 /*===========================
       01.COMMON css 
 ===========================*/
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
-@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800"); /* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap'); /* Meow Script */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'); /* Dancing Script */
 
 @font-face {
   font-family: "Meow Script";
   src: url(/assets/fonts/MeowScript-Regular.ttf) format(ttf);
+}
+
+@font-face {
+  font-family: "Dancing Script";
+  src: url(/assets/fonts/DancingScript.ttf) format(ttf);
 }
 
 body {
@@ -3580,7 +3586,7 @@ span2 {
 }
 
 .cursive {
-  font-family: "Meow Script", cursive;
+  font-family: "Meow Script", "Dancing Script", "Segoe Script", cursive;
   font-size: 55px;
   font-weight: 600;
   color: #121212;
