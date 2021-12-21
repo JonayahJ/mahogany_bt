@@ -2530,6 +2530,7 @@ p {
         font-size: 34px;
         line-height: 45px; 
         padding-top: 100px;
+        text-align: center;
       } 
       .slider-image-box .slider-image {
         margin-top: 25%;
@@ -2541,6 +2542,11 @@ p {
     font-size: 16px;
     line-height: 24px;
     margin-top: 16px; }
+    @media (max-width: 320px) {
+      .slider-content .text {
+        text-align: center;
+      }
+    }
   .slider-image-box .slider-image {
     padding-top: 80px;
     padding-bottom: 130px;
@@ -2552,7 +2558,13 @@ p {
       margin: 16px 8px 0; }
       @media (max-width: 767px) {
         .slider-content .slider-btn li {
-          margin: 16px 3px 0; } }
+          margin: 16px 3px 0; 
+        } }
+      @media (max-width: 320px) {
+        .slider-content .slider-btn li {
+          display: flex;
+          justify-content: center;
+        } }
       .slider-content .slider-btn li a.rounded-one {
         background-color: #fff;
         border-color: #fff; }
@@ -3590,7 +3602,7 @@ span2 {
 }
 
 .cursive {
-  font-family: "Meow Script", "Dancing Script", "Vladimir Script", cursive;
+  font-family: "Meow Script", "Dancing Script", "Freestyle Script", cursive;
   font-size: 55px;
   font-weight: 600;
   color: #121212;
