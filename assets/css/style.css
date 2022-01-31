@@ -2469,7 +2469,8 @@ p {
     z-index: 9; }
     .carousel-item .slider-image-box .slider-image {
       max-width: 680px; /* 320px */
-      width: 100%; }
+      width: 100%; 
+    }
 
 .slider-content {
   position: relative;
@@ -3617,3 +3618,9 @@ span2 {
 
 
 /*# sourceMappingURL=style.css.map */
+
+/* Xavier's CSS */
+
+@media (max-width: 10px) {
+  
+}
