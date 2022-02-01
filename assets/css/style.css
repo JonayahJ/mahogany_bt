@@ -2529,12 +2529,13 @@ p {
       .slider-content .title {
         font-size: 34px;
         line-height: 45px; 
-        padding-top: 100px;
+        padding-top: 150px; /* Spacing between the image and the title/button */
         text-align: center;
       } 
       .slider-image-box .slider-image {
-        margin-top: 25%;
-        margin-left: -50%;
+        margin-top: -10%;
+        margin-left: -75%;
+        min-width: 250px; /* Makes the image larger */
       }
     }
   .slider-content .text {
