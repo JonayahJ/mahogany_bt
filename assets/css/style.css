@@ -557,6 +557,7 @@ p {
   position: relative;
   text-transform: uppercase;
 }
+
 @media (max-width: 767px) {
   .main-btn {
     font-size: 14px;
@@ -3398,6 +3399,7 @@ p {
 .carousel-item .slider-image-box .slider-image {
   max-width: 680px; /* 320px */
   width: 100%;
+
 }
 
 .slider-content {
