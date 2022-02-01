@@ -2518,11 +2518,19 @@ p {
         font-size: 32px;
         line-height: 52px; 
         padding-top: 50%;
+        text-align: center;
+      }
+      .slider-content .text { /* Changing the quote source */
+        text-align: center;
+      }
+      .slider-content .slider-btn { /* Changing the slider button */
+        text-align: center;
       } 
       .slider-image-box .slider-image {
-        margin-top: 25%;
-        margin-left: -50%;
+        margin-top: -10%;
+        margin-left: -80%;
         margin-bottom: 15%;
+        min-width: 300px;
       }
     }
     @media (max-width: 320px) {
